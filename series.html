@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+        <!-- CSS dosyasısını tanımlama -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Etkinlik Önerileri</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Etkinlik Önerileri</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Ana Sayfa</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="about-us.html">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="contact.html"> Bize Ulaşın</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+        <br>
+        <div class="container text-center">
+            <h1 class="display-4">Diziler</h1>
+            <br>
+
+            <!-- 
+                Önerilen diziler Bootstrap Grid Sistemi içerisine yerleştirildi.
+                Aynı zamanda grid sistem içerisinde Bootstrap'in  card  yapısı kullanıldı.
+
+                Card sistemi içerisindeki resimlerin aynı boyutlarda olması içind style.css dosyasında, img class'ı olan card-img-top için özellikler eklendi.
+                Bu çözüm şurada bulundu:
+                https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width/53252725
+            -->
+            <div class="row">
+            <div class="col-sm">
+                <div class="card h-100" style="width: 18rem;">
+                    <img class="card-img-top" src="http://tr.web.img4.acsta.net/pictures/17/11/09/13/41/0101371.jpg" alt="Dark_Dizi_Görseli">
+                    <div class="card-body">
+                    <h5 class="card-title">DARK ~ 2017</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.imdb.com/title/tt5753856/?ref_=nv_sr_srsg_3" class="btn btn-info">Detaylay için tıklayınız</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card h-100" style="width: 18rem;">
+                    <img class="card-img-top" src="https://i.pinimg.com/originals/98/15/e6/9815e653efaf13077b1ffe69e5c5a721.jpg" alt="Sherlock_Dizi_Görseli">
+                    <div class="card-body">                    
+                    <h5 class="card-title">SHERLOCK ~ 2010-2017</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.imdb.com/title/tt1475582/" class="btn btn-info">Detaylay için tıklayınız</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card h-100" style="width: 18rem;">
+                    <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/tr/thumb/8/81/Masum-afis.jpeg/250px-Masum-afis.jpeg" alt="Masum_Dizi_Görseli">
+                    <div class="card-body">
+                    <h5 class="card-title">MASUM ~ 2017</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="v" class="btn btn-info">Detaylar için tıklayınız</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="fixed-bottom text-center">
+                <a href="https://www.linkedin.com/in/umut-turan/" class="text-secondary">LinkedIn</a>
+                <p  class="text-secondary">© 2021 umttran</p>
+            </div>
+        </footer>
+    </body>
+</html>
+
